@@ -1,0 +1,57 @@
+body {
+	padding: 0;
+	margin: 0;
+	min-width: 320px;
+	line-height: 1.3;
+}
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+p,
+h1,
+h2,
+h3,
+h4 {
+	padding: 0;
+	margin: 0;
+}
+button {
+	padding: 0;
+}
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.radix-themes {
+	--cursor-button: pointer;
+	--cursor-checkbox: pointer;
+	--cursor-disabled: default;
+	--cursor-link: pointer;
+	--cursor-menu-item: pointer;
+	--cursor-radio: pointer;
+	--cursor-slider-thumb: grab;
+	--cursor-slider-thumb-active: grabbing;
+	--cursor-switch: pointer;
+}

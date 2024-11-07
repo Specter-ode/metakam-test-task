@@ -1,0 +1,33 @@
+.container {
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+.aside {
+	display: none;
+}
+
+.list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	flex-wrap: wrap;
+	grid-gap: 16px;
+}
+
+@media (min-width: 768px) {
+	.list {
+		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+		grid-gap: 24px;
+	}
+	.aside {
+		position: sticky;
+		top: 0;
+		left: 0;
+		display: block;
+		min-width: 320px;
+	}
+	.container {
+		padding: 0 32px;
+	}
+}

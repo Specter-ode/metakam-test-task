@@ -1,0 +1,26 @@
+.icon_btn {
+	display: flex;
+}
+
+@media (min-width: 768px) {
+	.icon_btn {
+		display: none;
+	}
+}
+
+.icon {
+	width: 22px;
+	height: 22px;
+}
+
+.item {
+	flex: 1 1 50%;
+	display: flex;
+	align-items: center;
+	transition: all 0.3s ease;
+}
+
+.link {
+	width: 152px;
+	text-align: center;
+}
